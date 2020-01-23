@@ -29,7 +29,7 @@ gulp.task('server', function () {
     });
   
     gulp.watch('project/sass/**/*.scss', gulp.series('sass'));
-    gulp.watch('project/*.html').on("change", server.reload);
+    gulp.watch('project/*.html').on('change', server.reload);
   });
 
   gulp.task('start', gulp.series('sass', 'server'));
