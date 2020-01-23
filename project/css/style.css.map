@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.scss"],"names":[],"mappings":"AAEA;EACI,UAHO,EAAA;;AAMX;EACI,qBAPO,EAAA","file":"style.css","sourcesContent":["$color: red;\r\n\r\nbody {\r\n    color: $color;\r\n}\r\n\r\n.temp {\r\n    background-color: $color;\r\n}"]}
