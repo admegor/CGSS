@@ -1,0 +1,31 @@
+.header {
+    
+
+    &__top {
+        background: linear-gradient(107.64deg,
+             #443778 17.67%, #0978B7 111.86%);
+        
+    }
+
+    &__top-wrap {
+        max-width: 1440px;
+        height: 193px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 10px;
+    }
+
+    &__title-wrap {
+        margin-left: 150px;
+    }
+
+    &__title {
+        color: $white;
+        font-family: 'Roboto slab', Arial, Helvetica, sans-serif;        
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 37px;
+    }
+}

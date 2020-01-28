@@ -1,0 +1,19 @@
+.header__top {
+  background: linear-gradient(107.64deg, #443778 17.67%, #0978B7 111.86%); }
+
+.header__top-wrap {
+  max-width: 1440px;
+  height: 193px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+          align-items: center;
+  padding: 0 10px; }
+
+.header__title-wrap {
+  margin-left: 150px; }
+
+/*# sourceMappingURL=header.css.map */
