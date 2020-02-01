@@ -1,0 +1,30 @@
+.main-nav {
+    &__list {
+        margin: 0;
+        padding: 0;
+        justify-content: center; 
+        list-style: none;
+        display: flex;
+        align-items: center;
+    }
+
+    &__item {
+        display: flex;
+        align-items: center;
+    }
+
+    &__link {
+        padding: 19px 50px;
+        text-decoration: none;
+        color: $deepblue;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 24px;
+    }
+
+    &__link:hover {
+        background-color: $kleinblue;
+        color: $white;
+    }
+}
