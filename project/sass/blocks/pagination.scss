@@ -1,0 +1,33 @@
+.pagination {
+    &__list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+    }
+
+    &__item {
+        width: 14px;
+        height: 14px;
+        background-color: $kleinblue;
+        border-radius: 50%;
+        cursor: pointer;
+
+        position: relative;
+
+        &--active::after {
+            content: '';
+            position: absolute;
+            top: -4px;
+            right: -4px;
+            border: 1px solid #132846;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+        }
+    }
+
+    &__item + .pagination__item {
+        margin-left: 15px;
+    }
+}

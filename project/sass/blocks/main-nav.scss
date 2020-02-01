@@ -27,4 +27,8 @@
         background-color: $kleinblue;
         color: $white;
     }
+
+    &__link:active {
+        background-color: $kleinblueactive;        
+    }
 }

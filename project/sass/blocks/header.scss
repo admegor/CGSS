@@ -37,4 +37,25 @@
         max-width: 1440px;        
         margin: 0 auto;
     }
+
+    &__bottom-wrap {
+        max-width: 1440px;        
+        margin: 0 auto;
+    }
+
+    &__running-line {
+        margin: 0;
+        background-color: $sky;
+        color: $white;
+        height: 56px;
+        font-size: 20px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    &__running-line p {
+        position: absolute;
+        width: 200%;
+        overflow: hidden;
+    }
 }

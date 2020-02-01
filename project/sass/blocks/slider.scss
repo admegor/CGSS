@@ -1,0 +1,35 @@
+.slider {
+    &__wrap {
+        max-width: 1440px;        
+        margin: 0 auto;
+        background: url('../../img/slider-img-1.jpg') no-repeat center center;
+        min-height: 588px;
+        position: relative;
+    }
+
+    &__title {
+        margin: 0;
+        color: $kleinblue;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 60px;
+        padding-left: 150px;
+        padding-top: 150px;
+    }
+
+    &__subtitle {
+        margin: 0;
+        position: absolute;
+        bottom: 40px;
+        left: 150px;
+        color: $deepblue;
+        font-size: 30px;
+        line-height: 40px
+    }
+
+    &__pagination {
+        position: absolute;
+        bottom: 40px;
+        right: 150px;
+    }
+}
