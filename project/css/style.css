@@ -355,4 +355,10 @@ img {
   font-size: 30px;
   line-height: 37px; }
 
+.header__info {
+  margin-right: 150px; }
+
+.info {
+  max-width: 290px; }
+
 /*# sourceMappingURL=style.css.map */
