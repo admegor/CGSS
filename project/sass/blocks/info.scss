@@ -1,4 +1,34 @@
 .info {
     max-width: 290px;
+
+    &__wrap {
+        display: flex;
+        align-items: center;
+    }
+
+    &__phone-name {
+        color: $white;
+        margin: 0;
+        width: 70px;
+    }
+
+    &__phone-icon {
+        color: $deepblue;
+        font-size: 25px;
+        line-height: 35px;  
+        font-weight: 900;
+        background: url('../../img/bg-phone.png') no-repeat center center;
+        min-width: 80px;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 20px;
+    }
+
+    &__phone-icon a {
+        color: inherit;
+        text-decoration: none;
+    }
 }
 
