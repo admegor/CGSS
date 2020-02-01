@@ -361,4 +361,22 @@ img {
 .info {
   max-width: 290px; }
 
+.search-form {
+  position: relative; }
+
+input[type=search] {
+  height: 36px;
+  width: 290px;
+  padding-left: 15px;
+  padding-right: 30px; }
+
+input[type=submit] {
+  position: absolute;
+  top: 9px;
+  right: 10px;
+  border: none;
+  background-color: inherit;
+  background: url("../../img/icon-search.svg") no-repeat center center;
+  cursor: pointer; }
+
 /*# sourceMappingURL=style.css.map */
